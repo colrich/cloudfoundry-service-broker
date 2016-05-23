@@ -1,4 +1,4 @@
-package org.springframework.cloud.servicebroker.mongodb.config;
+package org.springframework.cloud.servicebroker.dictsvc.config;
 
 import java.util.Arrays;
 import java.util.Collections;

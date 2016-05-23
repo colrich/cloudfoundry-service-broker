@@ -1,6 +1,6 @@
-package org.springframework.cloud.servicebroker.mongodb.repository;
+package org.springframework.cloud.servicebroker.dictsvc.repository;
 
-import org.springframework.cloud.servicebroker.mongodb.model.ServiceInstanceBinding;
+import org.springframework.cloud.servicebroker.dictsvc.model.ServiceInstanceBinding;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**

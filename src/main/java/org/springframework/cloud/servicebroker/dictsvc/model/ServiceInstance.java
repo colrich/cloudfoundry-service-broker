@@ -1,4 +1,4 @@
-package org.springframework.cloud.servicebroker.mongodb.model;
+package org.springframework.cloud.servicebroker.dictsvc.model;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonProperty;

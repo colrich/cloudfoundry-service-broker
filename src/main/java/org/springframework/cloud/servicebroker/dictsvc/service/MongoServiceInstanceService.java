@@ -1,5 +1,8 @@
-package org.springframework.cloud.servicebroker.mongodb.service;
+package org.springframework.cloud.servicebroker.dictsvc.service;
 
+import org.springframework.cloud.servicebroker.dictsvc.exception.MongoServiceException;
+import org.springframework.cloud.servicebroker.dictsvc.model.ServiceInstance;
+import org.springframework.cloud.servicebroker.dictsvc.repository.MongoServiceInstanceRepository;
 import org.springframework.cloud.servicebroker.exception.ServiceBrokerException;
 import org.springframework.cloud.servicebroker.exception.ServiceInstanceDoesNotExistException;
 import org.springframework.cloud.servicebroker.exception.ServiceInstanceExistsException;
@@ -12,9 +15,6 @@ import org.springframework.cloud.servicebroker.model.GetLastServiceOperationResp
 import org.springframework.cloud.servicebroker.model.OperationState;
 import org.springframework.cloud.servicebroker.model.UpdateServiceInstanceRequest;
 import org.springframework.cloud.servicebroker.model.UpdateServiceInstanceResponse;
-import org.springframework.cloud.servicebroker.mongodb.exception.MongoServiceException;
-import org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceRepository;
-import org.springframework.cloud.servicebroker.mongodb.model.ServiceInstance;
 import org.springframework.cloud.servicebroker.service.ServiceInstanceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

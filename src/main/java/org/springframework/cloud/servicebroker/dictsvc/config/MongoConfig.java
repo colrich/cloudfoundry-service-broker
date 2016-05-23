@@ -1,4 +1,4 @@
-package org.springframework.cloud.servicebroker.mongodb.config;
+package org.springframework.cloud.servicebroker.dictsvc.config;
 
 import java.net.UnknownHostException;
 
@@ -12,7 +12,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import com.mongodb.MongoClient;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "org.springframework.cloud.servicebroker.mongodb.repository")
+@EnableMongoRepositories(basePackages = "org.springframework.cloud.servicebroker.dictsvc.repository")
 public class MongoConfig {
 
 	@Value("${mongodb.host:localhost}")

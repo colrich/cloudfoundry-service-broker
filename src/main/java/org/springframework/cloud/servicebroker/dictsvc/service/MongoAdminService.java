@@ -1,9 +1,9 @@
-package org.springframework.cloud.servicebroker.mongodb.service;
+package org.springframework.cloud.servicebroker.dictsvc.service;
 
-import org.springframework.cloud.servicebroker.mongodb.exception.MongoServiceException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.servicebroker.dictsvc.exception.MongoServiceException;
 import org.springframework.stereotype.Service;
 
 import com.mongodb.BasicDBList;

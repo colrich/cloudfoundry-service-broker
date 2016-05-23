@@ -34,7 +34,7 @@ dependencies {
 }
 
 jar {
-    baseName = 'cloudfoundry-mongodb-service-broker'
+    baseName = 'cloudfoundry-dictsvc-service-broker'
 }
 
 task wrapper(type: Wrapper) {

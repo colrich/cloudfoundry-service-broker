@@ -1,16 +1,16 @@
-package org.springframework.cloud.servicebroker.mongodb.service;
+package org.springframework.cloud.servicebroker.dictsvc.service;
 
 import java.util.Collections;
 import java.util.Map;
 
+import org.springframework.cloud.servicebroker.dictsvc.model.ServiceInstanceBinding;
+import org.springframework.cloud.servicebroker.dictsvc.repository.MongoServiceInstanceBindingRepository;
 import org.springframework.cloud.servicebroker.exception.ServiceInstanceBindingDoesNotExistException;
 import org.springframework.cloud.servicebroker.exception.ServiceInstanceBindingExistsException;
 import org.springframework.cloud.servicebroker.model.CreateServiceInstanceAppBindingResponse;
 import org.springframework.cloud.servicebroker.model.CreateServiceInstanceBindingRequest;
 import org.springframework.cloud.servicebroker.model.CreateServiceInstanceBindingResponse;
 import org.springframework.cloud.servicebroker.model.DeleteServiceInstanceBindingRequest;
-import org.springframework.cloud.servicebroker.mongodb.model.ServiceInstanceBinding;
-import org.springframework.cloud.servicebroker.mongodb.repository.MongoServiceInstanceBindingRepository;
 import org.springframework.cloud.servicebroker.service.ServiceInstanceBindingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

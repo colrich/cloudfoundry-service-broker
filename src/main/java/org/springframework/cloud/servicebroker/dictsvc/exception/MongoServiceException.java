@@ -1,4 +1,4 @@
-package org.springframework.cloud.servicebroker.mongodb.exception;
+package org.springframework.cloud.servicebroker.dictsvc.exception;
 
 import org.springframework.cloud.servicebroker.exception.ServiceBrokerException;
 
